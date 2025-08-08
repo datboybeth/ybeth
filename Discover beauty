@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beauty & Skincare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Beauty & Skincare</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skincare">Skincare</a></li>
+        <li><a href="#makeup">Makeup</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <h2>Glow with Confidence</h2>
+    <p>Discover the secrets to radiant skin, flawless makeup, and self-care routines that make you feel beautiful inside and out.</p>
+    <button onclick="subscribe()">Join Our Newsletter</button>
+  </section>
+
+  <!-- Skincare Section -->
+  <section id="skincare" class="section">
+    <h3>Daily Skincare Routine</h3>
+    <div class="card-container">
+      <div class="card">
+        <h4>1. Cleanser</h4>
+        <p>Removes dirt, oil, and makeup without stripping the skin.</p>
+      </div>
+      <div class="card">
+        <h4>2. Toner</h4>
+        <p>Balances pH and prepares skin for treatment products.</p>
+      </div>
+      <div class="card">
+        <h4>3. Serum</h4>
+        <p>Targets specific concerns like dark spots, fine lines, or acne.</p>
+      </div>
+      <div class="card">
+        <h4>4. Moisturizer</h4>
+        <p>Hydrates and locks in moisture for a smooth, glowing complexion.</p>
+      </div>
+      <div class="card">
+        <h4>5. SPF</h4>
+        <p>Protects your skin from harmful UV rays daily — even indoors.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Makeup Section -->
+  <section id="makeup" class="section light">
+    <h3>Makeup Must-Haves</h3>
+    <ul class="list">
+      <li>✨ Primer for a smooth base</li>
+      <li>🎨 Lightweight foundation or BB cream</li>
+      <li>💖 Concealer for under-eyes & blemishes</li>
+      <li>🌸 Blush for a healthy glow</li>
+      <li>👁️ Mascara & neutral eyeshadow</li>
+      <li>💄 Lip tint
